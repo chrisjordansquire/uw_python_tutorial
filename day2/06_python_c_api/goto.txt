@@ -1,0 +1,20 @@
+To learn more about the Python-C API go watch Ned Batchelder's
+talk "A Whirlwind Excursion through Python C Extensions" and
+look at the code accompanying the talk. 
+
+Generally though, you shouldn't bother doing this. A good way to 
+check if you really need to write your own C extension is to ask,
+"Do I need a Python object where I control it's memory layout?" 
+If the answer is yes, then you might need a Python C extension. 
+If the answer is no, then you probably don't. 
+
+For example, numpy gives python objects where the array is a 
+C array of numbers. This memory layout is different from a 
+default python array. Ditto for scipy.sparse matrices and for
+the gnumpy matrices that do matrix operations on a CUDA GPU. In 
+those cases you want Python objects with a different memory layout
+than the default memory layout you could achieve with existing 
+python classes. 
+
+But go watch the talk anyways, because it's a lot of fun learning 
+how python works under the hood. 

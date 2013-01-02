@@ -1,0 +1,35 @@
+#Compiled source#
+#################
+*.o
+*.so
+*.class
+*.out
+*.dylib
+*.exe
+*.jnilib
+*.os
+*.mod
+
+#Packages#
+##########
+
+*.gz
+*.jar
+*.tar
+*.zip
+
+# Logs #
+########
+
+*.log
+
+# Generated Files #
+###################
+*~
+*.pyc
+.*
+*.pro
+
+# Build Directories #
+bin/
+build/

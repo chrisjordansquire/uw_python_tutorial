@@ -1,0 +1,35 @@
+This is a collection of some of my favorite resources for learning more about
+Python, NumPy/SciPy, and coding in general. 
+
+First and foremost, Python's documentation is excellent. A great resource
+is the online docs at docs.pythong.org. 
+
+Actually the above is a lie. The docs are the best reference, but dry reading
+that only rarely directly answers immediate questions. The real first and
+foremost resource is stackoverflow. The highest voted Python questions
+make for great reading. Personally, User Mysticial also has some great
+answers. 
+
+Doug Hellman has a great collection of example code, "Python Module
+of the Week" at http://www.doughellmann.com/PyMOTW/. (He published an 
+associated book, The Python Standard Library by Example, which is a
+great way to 
+
+The talks from the past several pycon's are online at pyvideo.org. There
+are many videos, so it helps to have a starting point of good videos. 
+
+My personal recommendations are anyhting by Jack Diederick, anything by
+David Beazeley, anything by Larry Hastings, "The Mighty Dictionary",
+"A Whirlwind Excursion Through Writing a C Extension", "Everything 
+You Wanted to Know About Picking, But Were Afraid to Ask!", "Exhibition 
+of Atrocity", and "What Would Yo Do with an AST?"
+
+PEP (Python Enhancement Proposal) 7 and 8 are excellent (probably mandatory) 
+reading. This should be followed up with "Code Like a Pythonista: Idiomatic 
+Python" by David Goodger. (Can easily by found with google.) 
+
+Another great resource is software-carpentry.org. 
+
+Pythonic Perambulations is a great python-centric blog written by a UW grad 
+student turned UW postdoc. 
+
