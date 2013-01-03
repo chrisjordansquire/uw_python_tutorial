@@ -1,5 +1,0 @@
-day2 examples
-
-2. profiling
-4. simple cython example
-5. Examples of wrapping C, Fortran with cython
