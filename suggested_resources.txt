@@ -7,18 +7,18 @@ is the online docs at docs.pythong.org.
 Actually the above is a lie. The docs are the best reference, but dry reading
 that only rarely directly answers immediate questions. The real first and
 foremost resource is stackoverflow. The highest voted Python questions
-make for great reading. Personally, User Mysticial also has some great
-answers. 
+make for great reading. User Mysticial also has some great
+answers for learning a bit more about how a modern computer works. 
 
 Doug Hellman has a great collection of example code, "Python Module
 of the Week" at http://www.doughellmann.com/PyMOTW/. (He published an 
-associated book, The Python Standard Library by Example, which is a
-great way to 
+associated book, The Python Standard Library by Example. It's mostly
+the same material as on the website, except he gets $$$ for his work.) 
 
 The talks from the past several pycon's are online at pyvideo.org. There
 are many videos, so it helps to have a starting point of good videos. 
 
-My personal recommendations are anyhting by Jack Diederick, anything by
+I recooment anyhting by Jack Diederick, anything by
 David Beazeley, anything by Larry Hastings, "The Mighty Dictionary",
 "A Whirlwind Excursion Through Writing a C Extension", "Everything 
 You Wanted to Know About Picking, But Were Afraid to Ask!", "Exhibition 
