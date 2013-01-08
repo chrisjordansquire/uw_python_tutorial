@@ -1,3 +1,5 @@
+#Run this script with nosetests (probably in /usr/local/bin)
+
 #Can't import with import statement because module names
 #start with a number
 gen = __import__('07_generators')

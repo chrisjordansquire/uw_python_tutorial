@@ -23,11 +23,13 @@ def rotate(a,b):
 #Tuples are automatically unpacked, as follows
 
 x,y = rotate(2,1)
+print x,y
 
 #This alone fills one with fanatical devotion to the BDFL
 
 #Can also access varaibles by their names
 x2, y2 = rotate(b=1, a=2) #Same as above call
+print x2, y2
 
 #Scope in python functions is local
 #you can't access outside variables nor can variables

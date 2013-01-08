@@ -8,24 +8,27 @@
 
 class counter(object):
 
-	def __init__(self, func):
-		self.func = func
-		self.counter = 0
+    def __init__(self, func):
+        self.func = func
+        self.counter = 0
 
-	def __call__(self, *args, **kwargs):
-		self.counter += 1
-		return self.func(*args, **kwargs)
+    def __call__(self, *args, **kwargs):
+        self.counter += 1
+        return self.func(*args, **kwargs)
 
 @counter
 def fib(n):
-	if n==1:
-		return 1
-	if n==2:
-		return 1
-	return fib(n-1) + fib(n-2)
+    if n==1:
+        return 1
+    if n==2:
+        return 1
+    return fib(n-1) + fib(n-2)
 
 class memoize(object):
-
+    #This is a fairly general memoization decorator class
+    #That's why the intenral dictionary is key'd on the tuple
+    #combination of args and str(kwargs)
+    #But this isn't space efficient if there are no keyword args. 
     def __init__(self, f):
         self.cache={}
         self.f = f
@@ -39,22 +42,23 @@ class memoize(object):
         return tmp
 
 @memoize
-def fibc(n):
+def fibm(n):
     if n==1:
         return 1
     if n==2:
         return 1
-    return fibc(n-1)+fibc(n-2)
+    return fibm(n-1)+fibm(n-2)
 
 def main():
 
-	print fib(30)
-	print fib.counter
+    print fib(30)
+    print "Number of calls to fib: " + str(fib.counter)
 
-	print
+    print
 
-	print fibc(30)
-	print fibc.cache
+    print fibm(30)
+    print "The contents of fibm's cache:"
+    print fibm.cache
 
 if __name__ == "__main__":
-	main()
+    main()

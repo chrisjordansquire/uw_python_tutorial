@@ -10,25 +10,26 @@ version of python.
 """
 
 def parseArgs():
-	print " ".join(sys.argv)
-	parser = argparse.ArgumentParser()
+    print " ".join(sys.argv)
+    print 
+    parser = argparse.ArgumentParser()
 
-	parser.add_argument("req1", type=int)
-	parser.add_argument("req2", type=str)
+    parser.add_argument("req1", type=int)
+    parser.add_argument("req2", type=str)
 
-	parser.add_argument("--bool", action="store_true", default=False)
-	parser.add_argument("--int", action="store", default=0, type=int)
-	parser.add_argument("--opt", action="store", default="foo")
+    parser.add_argument("--bool", action="store_true", default=False)
+    parser.add_argument("--int", action="store", default=0, type=int)
+    parser.add_argument("--opt", action="store", default="foo")
 
-	args = parser.parse_args()
-	return args
+    args = parser.parse_args()
+    return args
 
 def main():
-	args = parseArgs()
-	if args.bool:
-		print (args.int + args.req1)
-	else:
-		print args.opt + args.req2
+    args = parseArgs()
+    if args.bool:
+        print (args.int + args.req1)
+    else:
+        print args.opt + args.req2
 
 
 
@@ -36,4 +37,4 @@ def main():
 #if this is a scipt. It also means you can import this module into
 #other code.
 if __name__ == "__main__":
-	main()
+    main()

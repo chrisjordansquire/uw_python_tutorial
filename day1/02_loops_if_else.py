@@ -24,7 +24,7 @@ winners = dict(zip(keys, values))
 
 #iterate over non-trivial, non-list iterable
 for year, prez in winners.items():
-	print "Congradulations, " + prez + " won in " + year
+	print "Congradulations, " + prez + " won in " + str(year) 
 
 
 #There are also while loops

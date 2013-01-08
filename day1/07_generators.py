@@ -19,38 +19,39 @@ import sys
 
 #Simple example of a generator function
 def primeGenerator():
-	primes=[2]
-	cur=2
-	while True:
-		cur+=1
-		is_prime=True
-		for x in primes:
-			if x>math.sqrt(cur):
-				break
-			if cur%x==0:
-				is_prime=False
-		if is_prime:
-			primes.append(cur)
-			yield cur
+    primes=[2]
+    cur=2
+    while True:
+        cur+=1
+        is_prime=True
+        for x in primes:
+            if x>math.sqrt(cur):
+                break
+            if cur%x==0:
+                is_prime=False
+        if is_prime:
+            primes.append(cur)
+            yield cur
 
 
 #The simplest way to make a generator is using generator expressions.
 def genExpr():
-	x = (x**2 for x in range(5)) #Utterly trivial example to show syntax
-	for i in x:
-		print i
+    x = (x**2 for x in range(5)) #Utterly trivial example to show syntax
+    for i in x:
+        print i
 
 
 #Example use
 def main():
-	nPrimes = int(sys.argv[1])
+    nPrimes = int(sys.argv[1])
 
-	pGen = primeGenerator()
-	for i in range(nPrimes):
-		print pGen.next()
+    pGen = primeGenerator()
+    for i in range(nPrimes):
+        print pGen.next()
 
-	print
-	genExpr()
+    print
+    print "Simple of generator expression"
+    genExpr()
 
 if __name__ == "__main__":
-	main()
+    main()
