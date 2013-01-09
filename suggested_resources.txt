@@ -39,7 +39,8 @@ massive text files, and (2) friends also don't let friends save their data in
 weird, non-standardized binary formats. A potential solution is standardized
 binary formats, and people smarter and more knowledgeable than me have 
 recommended HDF5 for that. The PyTables package is actively maintained by 
-a good community, and gives a python interface to HDF5. 
+a good community, and gives a python interface to HDF5. A good tutorial
+on PyTables is "HDF5 is for Lovers" by Anthony Scopatz. 
 
 It's also good to be aware of virtualenv if you're playing around with/
 re-compiling/re-installing base packages like numpy or scipy very much. 
