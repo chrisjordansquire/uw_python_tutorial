@@ -33,3 +33,17 @@ Another great resource is software-carpentry.org.
 Pythonic Perambulations is a great python-centric blog written by a UW grad 
 student turned UW postdoc. 
 
+Dealing with large datasets is generally a difficult problem. An easy way to
+make it simpler is to remember: (1) friends don't let friends save data in 
+massive text files, and (2) friends also don't let friends save their data in
+weird, non-standardized binary formats. A potential solution is standardized
+binary formats, and people smarter and more knowledgeable than me have 
+recommended HDF5 for that. The PyTables package is actively maintained by 
+a good community, and gives a python interface to HDF5. 
+
+It's also good to be aware of virtualenv if you're playing around with/
+re-compiling/re-installing base packages like numpy or scipy very much. 
+Or even python itself. Virtualenv lets to switch between versions of python, 
+so you can have a version of python that you use for development purposes
+and a version for data analysis. 
+
