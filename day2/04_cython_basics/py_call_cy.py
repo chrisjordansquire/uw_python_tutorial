@@ -3,6 +3,7 @@ import hello as h
 def main():
     #Note that the cdef'd functions are not visible to python
     print dir(h) 
+    print
    
     print h.py_sum(3,4)
     print h.py_hello_to("BLDF") 
