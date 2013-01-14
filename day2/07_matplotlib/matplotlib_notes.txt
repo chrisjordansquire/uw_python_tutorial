@@ -1,0 +1,20 @@
+Unlike numpy and scipy, matplotlib can be a little tricky to
+get setup and working. For example, if you use easy_install or
+pip to install matplotlib it's pretty easy for the installation
+to seem to work (i.e. no errors) but matplotlib fails to plot
+when you open up an interpreter. Generally the culprit seems 
+to be setting the backend. Some recommendations for fixing that 
+are on stackoverflow:
+http://stackoverflow.com/questions/7534453/matplotlib-does-not-show-my-drawings-although-i-call-pyplot-show
+
+
+Also, I don't show it here, but matplotlib has a 'pylab' mode that
+basically tries to be like matlab. It can be good for interactive
+work and is roughly equivalent to importing most stuff from
+numpy, scipy, and matplotlib into the global namespace. This means
+much less typing when making plots. 
+
+IPython also has a pylab mode that opens directly into pylab, and
+it can be quite pleasant to work in. 
+
+I have no idea how it comapres to SAGE. 
