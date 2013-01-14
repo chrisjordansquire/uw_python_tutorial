@@ -4,20 +4,28 @@ Short intro to functions.....finally.....
 
 #Defining a function is easy
 def g():
-	print "Hello, functions!"
+    """prints 'Hello, functions!'
+    """
+
+    print "Hello, functions!"
 
 #Calling a function is easy
 g()
+#Getting a function's doc string is also easy
+#In an interactive interpreter you can just type help(g)
+print g.__doc__
+#You should write docstrings for all your classes and functions
+#Both for others and for your future self 
 
 #Arguments are easy
 def g_with_args(x1, x2):
-	print x1
-	print x2
+    print x1
+    print x2
 
 #Return a value...heck, return multiple values
 
 def rotate(a,b):
-	return a+b, a-b
+    return a+b, a-b
 
 #Note that returning multiple values returns a tuple
 #Tuples are automatically unpacked, as follows
@@ -39,9 +47,9 @@ print x2, y2
 
 #Also, you can give default arguments to a function
 def h(x, y, z="Twilight Sparkle"):
-	x+= 1 #this change does not appear outside h
-	y.append("item "+str(x)) #this change is visible outside h
-	print z
+    x+= 1 #this change does not appear outside h
+    y.append("item "+str(x)) #this change is visible outside h
+    print z
 
 
 
