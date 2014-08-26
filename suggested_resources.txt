@@ -15,14 +15,58 @@ of the Week" at http://www.doughellmann.com/PyMOTW/. (He published an
 associated book, The Python Standard Library by Example. It's mostly
 the same material as on the website, except he gets $$$ for his work.) 
 
-The talks from the past several pycon's are online at pyvideo.org. There
-are many videos, so it helps to have a starting point of good videos. 
+Many regions have a yearly python conference. The largest is the US/Canada yearly
+conference, but there are many conferences outside of North America as well as
+conferences in different US states. The talks from many of the conferences in
+are online at pyvideo.org. There are many talks, so it helps to have a starting 
+point of good videoes. Below are ones I've watched and really enjoyed. They're 
+listed by PyCon event. 
 
-I recooment anyhting by Jack Diederick, anything by
-David Beazeley, anything by Larry Hastings, "The Mighty Dictionary",
-"A Whirlwind Excursion Through Writing a C Extension", "Everything 
-You Wanted to Know About Picking, But Were Afraid to Ask!", "Exhibition 
-of Atrocity", and "What Would Yo Do with an AST?"
+PyCon 2009:
+- "A Whirlwind Excursion through Writing a C Extension" by Ned Batchelder
+    (The video has issues, but the speaker also posted slides, codes, and notes
+    from the talk on his blog. I recommend looking at those as well.)
+
+PyCon 2010:
+- "Understading the Python GIL" by David Beazley
+- "Python's Dusty Corners" by Jack Diederich
+- "The Mighty Dictionary" by Brandon Rhodes
+- "Optimizations and Micro-Optimizations in CPython" by Larry Hastings
+
+PyCon 2011:
+- "Useful Namespaces: Context Managers and Decorators" by Jack Diederich
+- "What would you do with an AST?" by Matthew J Desmarias
+- "Exhibition of Atrocity" by Mike Pirnat
+- "Everything You Wanted To Know About Pickling, But Were Afraid To Ask!" by
+    Richard T. Sanders
+- "The Python That Wasn't" by Larry Hastings
+
+PyOhio 2012: 
+- "Deleting Code is Hard And You Should Do It" by Jack Diederich
+
+PyCon 2012:
+- Keynote on PyPy  by David Beazley
+- "Stop Writing Classes" by Jack Diederich
+- "Stepping Through CPython" by Larry Hastings
+- "Python, Linkers, and Virtual Memory" by Brandon Rhodes
+
+PyCon 2013:
+- "All-Singing All-Dancing Python Bytecode" by Larry Hastings
+- "Python Profiling" by Amjith Ramanujam
+- ""Good Enough" is good enough!" by Alex Martelli
+- "Loop like a native: while, for, iterators, generators" by Ned Batchelder
+- "Copyright and You" by Frank Siler
+- "Python's Law" by Stephen McJohn
+- "Learning Python Through Public Data Hacking" by David Beazley
+- "The Naming of Ducks: Where Dynamic Types Meet Smart Conventions" by
+    Brandon Rhodes
+
+PyCon 2014:
+- "Pickles are for Delis, not Software" by Alex Gaynor
+- "Turn Your Computer Into A Server" by Karen Rustad and Asheesh Laroia
+- "All Your Ducks In A Row: Data Structures in the Standard Library And Beyond"
+    by Brandon Rhodes
+ 
 
 PEP (Python Enhancement Proposal) 7 and 8 are excellent (probably mandatory) 
 reading. This should be followed up with "Code Like a Pythonista: Idiomatic 
